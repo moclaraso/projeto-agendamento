@@ -1,0 +1,50 @@
+/* Estilos simples para a página */
+body {
+    font-family: 'Libre Caslon Text', serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 20px;
+    background-color: #0303b5;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #appointmentList {
+    margin-top: 20px;
+  }
+  
+  #appointmentList h2 {
+    margin-bottom: 10px;
+  }
+  
+  #appointmentList p {
+    margin: 5px 0;
+  }
+  

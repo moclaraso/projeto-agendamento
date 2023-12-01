@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agendamento</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Agendamento</h1>
+
+  <form id="appointmentForm">
+    <label for="name">Nome:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="date">Data:</label><br>
+    <input type="date" id="date" name="date"><br>
+
+    <label for="time">Hora:</label><br>
+    <input type="time" id="time" name="time"><br>
+
+    <input type="submit" value="Agendar">
+  </form>
+
+  <div id="appointmentList">
+    <!-- Aqui será exibida a lista de agendamentos -->
+  </div>
+
+  <script src="agendamento.js"></script>
+</body>
+</html>
